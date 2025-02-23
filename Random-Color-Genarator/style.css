@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.random-color-generator-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100vh;
+  gap: 30px;
+  padding: 30px;
+}
+.color-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  border: 4px dashed black;
+}
+.hex-color-container,
+.rgb-color-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  text-align: center;
+}
+button {
+  padding: 12px 24px;
+  border-radius: 12px;
+  font-weight: 700;
+  font-size: 18px;
+  background-color: coral;
+  border: 2px solid rgb(197, 75, 31);
+  cursor: pointer;
+}
+.hex-color-value,
+.rgb-color-value {
+  font-size: 28px;
+  font-weight: 700;
+  color: black;
+}
